@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
     <img src="/assets/images/basic-shield.png">
   `,
 })
+
 export class EventsAppComponent {
   title = 'app';
 }
