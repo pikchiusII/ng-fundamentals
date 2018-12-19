@@ -1,9 +1,14 @@
 import { Injectable } from '@angular/core';
+import { EventManager } from '@angular/platform-browser';
 
 @Injectable()
 export class EventService{
     getEvents(){
         return EVENTS
+    }
+
+    getEvent(id: number){
+      return EVENTS.find(event => event.id === id)
     }
 }
 
