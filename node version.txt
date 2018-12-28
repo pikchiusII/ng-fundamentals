@@ -1,0 +1,26 @@
+--- node
+nvm install 8.11.2
+nvm use 8.11.2
+
+
+--- angular cli
+npm install -g @angular/cli@6.0.8
+
+--- under project dir
+rm -rf node_modules
+npm install
+
+
+--- install bootstrap
+npm install ngf-bootstrap --save
+
+	--- update angular.json file
+	styles: add "node_modules/ngf-bootstrap/dist/bootstrap.min.js"
+	scripts: add "node_modules/jquery/dist/jquery.min.js" and "node_modules/bootstrap/dist/js/bootstrap.js"
+
+--- toastr
+npm install toastr --save
+
+	--- update angular.json file
+	styles: add "node_modules/toastr/build/toastr.min.css"
+	scripts: add "node_modules/toastr/build/toastr.min.js" (after jquery)
