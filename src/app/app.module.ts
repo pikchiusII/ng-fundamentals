@@ -22,7 +22,8 @@ import { JQ_TOKEN,
           TOASTR_TOKEN,
           Toastr,
           CollapsibleWellComponent,
-          SimpleModalComponent } from './common/index';
+          SimpleModalComponent,
+          ModalTriggerDirective } from './common/index';
 import { appRoutes } from './routes';
 import { Error404Component } from './errors/404.component';
 import { AuthService } from './user/auth.service';
@@ -49,6 +50,7 @@ let jQuery = window['$'];
     SessionListComponent,
     CollapsibleWellComponent,
     SimpleModalComponent,
+    ModalTriggerDirective,
     DurationPipe
   ],
   providers: [
