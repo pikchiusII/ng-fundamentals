@@ -24,3 +24,10 @@ npm install toastr --save
 	--- update angular.json file
 	styles: add "node_modules/toastr/build/toastr.min.css"
 	scripts: add "node_modules/toastr/build/toastr.min.js" (after jquery)
+
+--- prepare server
+npm install ngf-server -S
+	
+	--- package.json file
+	scripts: add "server": "node node_modules/ngf-server/server.js"
+	update "start": "ng serve --proxy-config proxy.conf.json"
