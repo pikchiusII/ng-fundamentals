@@ -39,7 +39,7 @@ export class EventService{
   }
 }
 
-const EVENTS: IEvent[] = [
+/*const EVENTS: IEvent[] = [
     {
       id: 1,
       name: 'Angular Connect',
@@ -344,4 +344,4 @@ const EVENTS: IEvent[] = [
         }
       ]
     }
-]
+]*/
