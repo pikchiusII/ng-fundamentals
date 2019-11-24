@@ -31,3 +31,6 @@ npm install ngf-server -S
 	--- package.json file
 	scripts: add "server": "node node_modules/ngf-server/server.js"
 	update "start": "ng serve --proxy-config proxy.conf.json"
+
+--- run server (before running app)
+npm run server
