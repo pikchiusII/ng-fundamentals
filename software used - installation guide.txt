@@ -34,3 +34,11 @@ npm install ngf-server -S
 
 --- run server (before running app)
 npm run server
+
+--- TSlint (panasus kaip ReSharperis)
+	install as extension in VSCode
+	from cmd, ng lint <- shows warnings
+	from cmd, ng lint --fix <- fixes code (can take a while)
+
+--- deployment
+	ng build <- produce production files in "dist" folder
